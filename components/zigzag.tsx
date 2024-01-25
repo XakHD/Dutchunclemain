@@ -27,7 +27,7 @@ export default function Zigzag() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ items: [{ id: 'sk_test_51ObnmzCJqVyDUHFQwPvNtudAn0aoCdt14LJUorn1kRDggCiIxtBLvRwgu0mBbZF6I8TK6MP0XLs8vZ8cuYtYl8ac00CbxOQv3P', quantity: 1 }] }), // Replace 'prod_XXX' with your product id
+      body: JSON.stringify({ items: [{ id: 'req_Wj1aswSjn2pOyx', quantity: 1 }] }), // Replace 'prod_XXX' with your product id
     });
 
     const session = await response.json();
