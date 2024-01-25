@@ -8,7 +8,6 @@ import idea from '@/public/images/dutchideation.jpg'
 import nft from '@/public/videos/dutch-uncle-nft.gif'
 import React from 'react';
 import { useRouter } from 'next/navigation';
-import dynamic from 'next/dynamic';
 
 
 // Import images or other assets as needed
