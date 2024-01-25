@@ -13,9 +13,7 @@ import dynamic from 'next/dynamic';
 
 // Import images or other assets as needed
 
-const ZigzagWithNoSSR = dynamic(() => import('./zigzag'), {
-  ssr: false, // Disable server-side rendering for this component
-});
+
 
 export default function Zigzag() {
   const router = useRouter();
