@@ -82,7 +82,7 @@ export default function Zigzag() {
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
                 {/* <Image className="max-w-full mx-auto md:max-w-none h-auto" src={staff} width={540} height={405} alt="Features 01" /> */}
-                <img className="" src="/images/largehead.png"   alt="largehead" />
+                <img className="hidden sm:block" src="/images/largehead.png"   alt="largehead" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
@@ -124,7 +124,7 @@ export default function Zigzag() {
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
                 {/* <Image className="max-w-full mx-auto md:max-w-none h-auto" src={fund} width={540} height={405} alt="Features 02" /> */}
-                <img className="flex justify-center items-center" src="/images/character.png"   alt="character" />
+                <img className=" justify-center items-center hidden sm:block" src="/images/character.png"   alt="character" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
@@ -156,7 +156,7 @@ export default function Zigzag() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-              <img className="" src="/images/largehead.png"   alt="largehead" />
+              <img className="hidden sm:block" src="/images/largehead.png"   alt="largehead" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
