@@ -53,22 +53,26 @@ export default function Zigzag() {
           <h1 className="h2 mb-4">One product, unlimited solutions</h1>
           <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
         </div> */}
-        <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 flex flex-col md:flex-row items-center">
+         <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 flex flex-col md:flex-row items-center"> 
 <a href="https://opensea.io/collection/growth-now/overview">
-<Image className="max-w-full mx-auto md:max-w-none h-auto md:mr-8 rounded-full" src={nft} width={400} height={200} alt="Features 01" />
+<div className="shadow 2xl">
+ <Image className="max-w-full mx-auto md:max-w-none h-auto md:mr-8 rounded-full" src={nft} width={400} height={200} alt="Features 01" /> 
+</div>
  </a>
     
-    <div className="text-left">
-      <h1 className="h2 mb-4">One product, unlimited solutions</h1>
+    <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+    
+      {/* <h1 className="h2 mb-4 text-center text-xl flex justify-center md:text-center sm:ml-10">One product, unlimited solutions</h1> */}
       <button
-        className="mt-4 bg-[#030b42] text-[#1bee70]  from-cyan-500 to-[#030b42] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+        className="bg-[#030b42] text-[#1bee70] bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
         onClick={handleCheckout}
       >
-        Purchase the NFT Package Here
+        Purchase the NFT Package Here!
       </button>
-
+     
      </div>
-     </div> 
+     </div>
+     
 
        {/* Items */}
         <div className="grid gap-20">
@@ -77,32 +81,38 @@ export default function Zigzag() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={staff} width={540} height={405} alt="Features 01" />
+                {/* <Image className="max-w-full mx-auto md:max-w-none h-auto" src={staff} width={540} height={405} alt="Features 01" /> */}
+                <img className="" src="/images/largehead.png"   alt="largehead" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2"></div>
                   <h3 className="h3 mb-3 text-center">Staffing</h3>
-                  <p className="text-xl text-white mb-4">We are always recruiting and belong to organizations filled with 100s of top talent in respective fields</p>
+                  <li className="flex items-center mb-2">
+                           <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
+                          <span className="text-white font-bold">We are always recruiting and belong to organizations filled with 100s of top talent in respective fields</span>
+                       </li>
+                 
                   <ul className="text-lg text-gray-400 -mb-2">
                   <li className="flex items-center mb-2">
                            <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
-                          <span className="text-white font-bold">We can Define roles, Train and Advise</span>
+                          <span className="text-[#3b98df] font-bold">We can Define roles, Train and Advise</span>
                        </li>
+
                        <li className="flex items-center mb-2">
                            <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
                           <span className="text-white font-bold">Place Staff through Augmentation</span>
                        </li>
                        <li className="flex items-center mb-2">
                            <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
-                      <span className="text-white font-bold">Step in, lead teams and be responsible for KPI's and OKR's
+                      <span className="text-[#3b98df] font-bold">Step in, lead teams and be responsible for<br/> KPI's and OKR's
                       </span>
                       
                     </li>
                     <li className="flex items-center mb-2">
                            <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
-                      <span className="text-white font-bold">Whatever needs done to get production going we do quickly.Period.</span>
+                      <span className="text-white font-bold">Whatever needs done to get production <br/> going we do quickly.</span>
                      </li>
                   </ul>  
                 </div>
@@ -113,7 +123,8 @@ export default function Zigzag() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={fund} width={540} height={405} alt="Features 02" />
+                {/* <Image className="max-w-full mx-auto md:max-w-none h-auto" src={fund} width={540} height={405} alt="Features 02" /> */}
+                <img className="flex justify-center items-center" src="/images/character.png"   alt="character" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
@@ -137,6 +148,7 @@ export default function Zigzag() {
                     </li>
                   </ul>
                 </div>
+
               </div>
             </div>
 
