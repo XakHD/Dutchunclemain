@@ -4,6 +4,7 @@
 import Image from 'next/image'
 import staff from '@/public/images/dutchstaff.jpg'
 import fund from '@/public/images/dutchfund.jpg'
+import box1 from '../public/images/box1.png';
 import idea from '@/public/images/dutchideation.jpg'
 import nft from '@/public/videos/dutch-uncle-nft.gif'
 import React from 'react';
@@ -60,7 +61,7 @@ export default function Zigzag() {
     <div className="text-left">
       <h1 className="h2 mb-4">One product, unlimited solutions</h1>
       <button
-        className="mt-4 bg-blue-500 hover:bg-blue-700 text-[#1bee70] font-bold py-2 px-4 rounded"
+        className="mt-4 bg-[#030b42] text-[#1bee70]  from-cyan-500 to-[#030b42] hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
         onClick={handleCheckout}
       >
         Purchase the NFT Package Here
@@ -85,37 +86,25 @@ export default function Zigzag() {
                   <h3 className="h3 mb-3 text-center">Staffing</h3>
                   <p className="text-xl text-white mb-4">We are always recruiting and belong to organizations filled with 100s of top talent in respective fields</p>
                   <ul className="text-lg text-gray-400 -mb-2">
-                    <li className="flex items-center mb-2">
-                      <svg className="w-3 h-3 fill-current text-[#1bee70] mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span className="text-white font-bold">We can Define roles, Train and Advise</span>
-                    </li>
-                    <li className="flex items-center mb-2">
-                      <svg className="w-3 h-3 fill-current text-[#1bee70] mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span className="text-white font-bold">Place Staff through Augmentation</span>
-                    </li>
-                    <li className="flex items-center">
-                      <svg className="w-3 h-3 fill-current text-[#1bee70] mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
+                  <li className="flex items-center mb-2">
+                           <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
+                          <span className="text-white font-bold">We can Define roles, Train and Advise</span>
+                       </li>
+                       <li className="flex items-center mb-2">
+                           <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
+                          <span className="text-white font-bold">Place Staff through Augmentation</span>
+                       </li>
+                       <li className="flex items-center mb-2">
+                           <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
                       <span className="text-white font-bold">Step in, lead teams and be responsible for KPI's and OKR's
                       </span>
                       
                     </li>
-                    <li className="flex items-center">
-                     <span>  <li className="flex items-center">
-                      <svg className="w-3 h-3 fill-current text-[#1bee70] mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
+                    <li className="flex items-center mb-2">
+                           <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
                       <span className="text-white font-bold">Whatever needs done to get production going we do quickly.Period.</span>
                      </li>
-                      </span>
-                      
-                    </li>
-                  </ul>
+                  </ul>  
                 </div>
               </div>
             </div>
@@ -133,23 +122,17 @@ export default function Zigzag() {
                   <h3 className="h3 mb-3 text-center">Fundraising</h3>
                   <p className="text-xl text-white mb-4">We have success in 2M+ fundraising</p>
                   <ul className="text-lg text-white font-bold -mb-2">
-                    <li className="flex items-center mb-2">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
+                  <li className="flex items-center mb-2">
+                           <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
                       <span>Fundraising extends through operations</span>
                     </li>
                     <li className="flex items-center mb-2">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
+                           <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
                       <span>we have 10k+ VC's and Family Offices Catalogued. 
                         <p>We reach out into the network daily and have developed key relationships with active funds</p></span>
                     </li>
-                    <li className="flex items-center">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
+                    <li className="flex items-center mb-2">
+                           <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
                       <span>Pitching VC's, Filling Grants. Registered tech into Hackathon, Participating in Accelerator Events can be time consuming and burdensome</span>
                     </li>
                   </ul>
@@ -171,23 +154,17 @@ export default function Zigzag() {
                   <p className="text-xl text-white mb-4">Understanding where to start can be time consuming</p>
                   <p className="text-xl text-white mb-4">We get the idea in front of industry KOL's fast so it can be molded into what can work</p>
                   <ul className="text-lg text-white -mb-2 font-bold">
-                    <li className="flex items-center mb-2">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
+                  <li className="flex items-center mb-2">
+                           <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
                       <span>Research is time consuming. We have researched 250+ of the top protocols discovering what works. Know what to implement and when. A clear path forward can be developed inside of 30 days ready to be battle tested with Blitz Scaling</span>
                       
                     </li>
                     <li className="flex items-center mb-2">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
+                           <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
                       <span>Development Staffing developers through done for you or with augmentation can be vital early on We know how to ship clean code fast!</span>
                     </li>
-                    <li className="flex items-center">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
+                    <li className="flex items-center mb-2">
+                           <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
                       <span>POC We can define whta an initial POC can be and should look like</span>
                     </li>
                   </ul>
