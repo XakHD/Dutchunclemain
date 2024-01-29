@@ -93,7 +93,7 @@ export default function Zigzag() {
                            <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
                           <span className="text-white font-bold">We are always recruiting and belong to organizations filled with 100s of top talent in respective fields</span>
                        </li>
-                 
+                    
                   <ul className="text-lg text-gray-400 -mb-2">
                   <li className="flex items-center mb-2">
                            <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
@@ -156,7 +156,7 @@ export default function Zigzag() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={idea} width={540} height={405} alt="Features 03" />
+              <img className="" src="/images/largehead.png"   alt="largehead" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
