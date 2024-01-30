@@ -55,9 +55,9 @@ export default function Zigzag() {
         </div> */}
          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 flex flex-col md:flex-row items-center"> 
 <a href="https://opensea.io/collection/growth-now/overview">
-<div className="shadow 2xl">
- <Image className="max-w-full mx-auto md:max-w-none h-auto md:mr-8 rounded-full" src={nft} width={400} height={200} alt="Features 01" /> 
-</div>
+
+ <Image className="max-w-full mx-auto md:max-w-none h-auto md:mr-8 rounded-full mb-8 md:mb-0" src={nft} width={400} height={200} alt="Features 01" /> 
+
  </a>
     
     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
@@ -75,7 +75,7 @@ export default function Zigzag() {
      
 
        {/* Items */}
-        <div className="grid gap-20">
+        <div className="grid gap-0">
 
             {/* 1st item */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
@@ -85,15 +85,16 @@ export default function Zigzag() {
                 <img className="hidden sm:block" src="/images/largehead.png"   alt="largehead" />
               </div>
               {/* Content */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
+            
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2"></div>
                   <h3 className="h3 mb-3 text-center">Staffing</h3>
                   <li className="flex items-center mb-2">
                            <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
-                          <span className="text-white font-bold">We are always recruiting and belong to organizations filled with 100s of top talent in respective fields</span>
+                          {/* <span className="text-white font-bold">We are always recruiting and belong to organizations filled with 100s of top talent in respective fields</span> */}
+                          <span className="text-white font-bold text-left md:text-center">We are always recruiting and belong to organizations <br/> filled with 100s of top talent in respective fields</span>
                        </li>
-                    
+                
                   <ul className="text-lg text-gray-400 -mb-2">
                   <li className="flex items-center mb-2">
                            <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
@@ -192,6 +193,7 @@ export default function Zigzag() {
     
   );
  };
+
 
 
 
