@@ -86,9 +86,10 @@ export default function Zigzag() {
               </div>
               {/* Content */}
             
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="">
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
+              
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <h3 className="h3 mb-3 text-center">Staffing</h3>
+                  <h3 className="h3 mb-3">Staffing</h3>
                   <li className="flex items-center mb-2">
                            <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
                           {/* <span className="text-white font-bold">We are always recruiting and belong to organizations filled with 100s of top talent in respective fields</span> */}
@@ -124,15 +125,19 @@ export default function Zigzag() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
-                {/* <Image className="max-w-full mx-auto md:max-w-none h-auto" src={fund} width={540} height={405} alt="Features 02" /> */}
+              
                 <img className=" justify-center items-center hidden sm:block" src="/images/character.png"   alt="character" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2"></div>
-                  <h3 className="h3 mb-3 text-center">Fundraising</h3>
-                  <p className="text-xl text-white mb-4">We have success in 2M+ fundraising</p>
+                  <h3 className="h3 mb-3">Fundraising</h3>
+                 
+                  <li className="flex items-center mb-2">
+                            <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
+                          <span className="text-[#3b98df] font-bold">We have success in 2M+ fundraising</span>
+                       </li>
                   <ul className="text-lg text-white font-bold -mb-2">
                   <li className="flex items-center mb-2">
                            <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
@@ -140,7 +145,7 @@ export default function Zigzag() {
                     </li>
                     <li className="flex items-center mb-2">
                            <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
-                      <span>we have 10k+ VC's and Family Offices Catalogued. 
+                      <span>
                         <p>We reach out into the network daily and have developed key relationships with active funds</p></span>
                     </li>
                     <li className="flex items-center mb-2">
@@ -162,8 +167,7 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2"></div>
-                  <h3 className="h3 mb-3">Ideation/Research/Development/POC</h3>
+                  <h3 className="h3 mb-3 md:text-xl">Ideation/Development</h3>
                   <p className="text-xl text-white mb-4">Understanding where to start can be time consuming</p>
                   <p className="text-xl text-white mb-4">We get the idea in front of industry KOL's fast so it can be molded into what can work</p>
                   <ul className="text-lg text-white -mb-2 font-bold">
