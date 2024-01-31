@@ -64,7 +64,7 @@ export default function Zigzag() {
     
       {/* <h1 className="h2 mb-4 text-center text-xl flex justify-center md:text-center sm:ml-10">One product, unlimited solutions</h1> */}
       <button
-        className="bg-[#030b42] text-[#1bee70] bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+        className="bg-[#030b42] text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
         onClick={handleCheckout}
       >
         Purchase the NFT Package Here!
