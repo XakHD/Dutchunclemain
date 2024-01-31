@@ -1,19 +1,31 @@
 
-import nft from '@/public/videos/dutch-uncle-nft.gif'
-import Image from 'next/image'
+import React from "react";
+import App from 'react';
+
+import DownloadButton from "./client";
 
 export default function Features() {
+
+    
   return (
+     
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+          {/* <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
         
             <h2 className="h2 mb-4">A New Era of Financial Sovereignty</h2>
             <p className="text-xl text-white font-bold">Join the DutchUncle.io Ecosystem</p>
-          </div>
+          </div> */}
+<div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+  <h2 className="h2 mb-4">A New Era of Financial Sovereignty</h2>
+  <p className="text-xl text-gray-300 mb-8">Join the DutchUncle.io Ecosystem</p>
+
+  {/* Downloadable link to PDF file */}
+ <DownloadButton />
+</div>
 
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>

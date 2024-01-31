@@ -98,17 +98,24 @@ export default function Footer() {
             <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
               <li>
                 <Link href="https://twitter.com/dutchuncleio" className="flex justify-center items-center text-white bg-[#177CC2] hover:text-gray-100 hover:bg-[#030b42] rounded-full transition duration-150 ease-in-out" aria-label="Twitter">
-                  <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                   <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                     <path d="m13.063 9 3.495 4.475L20.601 9h2.454l-5.359 5.931L24 23h-4.938l-3.866-4.893L10.771 23H8.316l5.735-6.342L8 9h5.063Zm-.74 1.347h-1.457l8.875 11.232h1.36l-8.778-11.232Z" />
-                  </svg>
+                  </svg> 
+                   
                 </Link>
               </li>
               <li className="ml-4">
-                <Link href="/" className="flex justify-center items-center text-white bg-[#177CC2] hover:text-gray-100 hover:bg-[#030b42] rounded-full transition duration-150 ease-in-out" aria-label="Telegram">
+                {/* old link below */}
+                {/* <Link href="/" className="flex justify-center items-center text-white bg-[#177CC2] hover:text-gray-100 hover:bg-[#030b42] rounded-full transition duration-150 ease-in-out" aria-label="Telegram">
                   <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                     <path d="M16 8.2c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4V22c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.4.6.9.6 1.6v2.2c0 .2.1.5.6.4 3.2-1.1 5.5-4.1 5.5-7.6-.1-4.4-3.7-8-8.1-8z" />
                   </svg>
-                </Link>
+                </Link> */}
+                 <Link href="https://t.me/dutchuncleio" className="flex justify-center items-center text-white bg-[#177CC2] hover:text-gray-100 hover:bg-[#030b42] rounded-full transition duration-150 ease-in-out" aria-label="Telegram">
+                 <svg className="w-8 h-8 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5.36 7.26l-1.63 7.69c-.11.42-.4.53-.77.33l-2.19-1.62-1.07 1.04c-.14.14-.26.26-.53.26l.37-3.31 5.88-5.3c.24-.22-.05-.34-.37-.12l-7.27 4.35-3.13-.97c-.41-.13-.41-.41.09-.61l10.31-4.04c.35-.16.66.09.52.61z"/>
+                  </svg>
+                   </Link>
               </li>
               {/* <li className="ml-4">
                 <Link href="/" className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out" aria-label="Facebook">
@@ -126,13 +133,13 @@ export default function Footer() {
                   </svg>
                 </Link>
               </li> */}
-               <li className="ml-4">
+               {/* <li className="ml-4">
                 <Link href="/" className="flex justify-center items-center text-white bg-[#177CC2] hover:text-gray-100 hover:bg-[#030b42] rounded-full transition duration-150 ease-in-out" aria-label="Medium">
                   <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                   <path d="M23.3 8H8.7c-.4 0-.7.3-.7.7v14.7c0 .3.3.6.7.6h14.7c.4 0 .7-.3.7-.7V8.7c-.1-.4-.4-.7-.8-.7zM12.7 21.6h-2.3V14h2.4v7.6h-.1zM11.6 13c-.8 0-1.4-.7-1.4-1.4 0-.8.6-1.4 1.4-1.4.8 0 1.4.6 1.4 1.4-.1.7-.7 1.4-1.4 1.4zm10 8.6h-2.4v-3.7c0-.9 0-2-1.2-2s-1.4 1-1.4 2v3.8h-2.4V14h2.3v1c.3-.6 1.1-1.2 2.2-1.2 2.4 0 2.8 1.6 2.8 3.6v4" />
                   </svg>
                 </Link>
-              </li> 
+              </li>  */}
             </ul>
 
             {/* Copyrights note */}
