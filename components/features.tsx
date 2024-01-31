@@ -1,8 +1,8 @@
 
 import React from "react";
 import App from 'react';
-
 import DownloadButton from "./client";
+
 
 export default function Features() {
 
@@ -24,7 +24,7 @@ export default function Features() {
   <p className="text-xl text-gray-300 mb-8">Join the DutchUncle.io Ecosystem</p>
 
   {/* Downloadable link to PDF file */}
- <DownloadButton />
+  <DownloadButton /> 
 </div>
 
           {/* Items */}
