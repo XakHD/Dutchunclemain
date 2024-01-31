@@ -11,9 +11,8 @@ export default function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
         
-            <h2 className="h2 mb-4">The majority our customers do not understand their workflows.</h2>
-            <p className="text-xl text-gray-400">Understanding where to start can be time consuming
-             We get the idea in front of industry KOL's fast so it can be molded into what can work</p>
+            <h2 className="h2 mb-4">A New Era of Financial Sovereignty</h2>
+            <p className="text-xl text-white font-bold">Join the DutchUncle.io Ecosystem</p>
           </div>
 
           {/* Items */}
@@ -29,8 +28,8 @@ export default function Features() {
                 <path className="stroke-current text-purple-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">Defining Decentralization</h4>
+              <p className="text-lg text-white font-bold text-center">Own a Part of Your Growth Journey</p>
             </div>
 
             {/* 2nd item */}
@@ -40,8 +39,8 @@ export default function Features() {
                 <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">Educate. Execute. Elevate</h4>
+              <p className="text-lg text-white font-bold text-center"> Join DutchUncle.io for DeFi Mastery</p>
             </div>
 
             {/* 3rd item */}
@@ -54,8 +53,8 @@ export default function Features() {
                   <circle className="stroke-current text-purple-100" cx="11" cy="11" r="11" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2">Shape Your DeFi Strategy</h4>
+              <p className="text-lg text-white font-bold text-center">Participate, Learn, and Earn with DutchUncle.io</p>
             </div> 
 
             {/* 4th item */}

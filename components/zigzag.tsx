@@ -43,7 +43,7 @@ export default function Zigzag() {
 
   return (
     <section>
-    <div className="max-w-6xl mx-auto px-4 sm:px-6">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6  ">
       <div className="py-12 md:py-20 border-t border-gray-800">
 
         {/* Section header */}
@@ -146,7 +146,7 @@ export default function Zigzag() {
                     <li className="flex items-center mb-2">
                            <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
                       <span>
-                        <p>We reach out into the network daily and have developed key relationships with active funds</p></span>
+                        <p className="text-[#3b98df]">We reach out into the network daily and have developed key relationships with active funds</p></span>
                     </li>
                     <li className="flex items-center mb-2">
                            <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
@@ -168,21 +168,19 @@ export default function Zigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <h3 className="h3 mb-3 md:text-xl">Ideation/Development</h3>
-                  <p className="text-xl text-white mb-4">Understanding where to start can be time consuming</p>
-                  <p className="text-xl text-white mb-4">We get the idea in front of industry KOL's fast so it can be molded into what can work</p>
-                  <ul className="text-lg text-white -mb-2 font-bold">
+                  <ul className="text-lg mb-2 font-bold">
                   <li className="flex items-center mb-2">
                            <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
-                      <span>Research is time consuming. We have researched 250+ of the top protocols discovering what works. Know what to implement and when. A clear path forward can be developed inside of 30 days ready to be battle tested with Blitz Scaling</span>
+                      <span className="text-[#3b98df]">Research is time consuming. We have researched 250+ of the top protocols discovering what works. Know what to implement and when. A clear path forward can be developed inside of 30 days ready to be battle tested with Blitz Scaling</span>
                       
                     </li>
                     <li className="flex items-center mb-2">
                            <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
-                      <span>Development Staffing developers through done for you or with augmentation can be vital early on We know how to ship clean code fast!</span>
+                      <span className="text-white">Development Staffing developers through done for you or with augmentation can be vital early on We know how to ship clean code fast!</span>
                     </li>
                     <li className="flex items-center mb-2">
                            <img className="w-6 h-6 mr-2 shrink-0" src="/images/box1.png"   alt="box1" />
-                      <span>POC We can define whta an initial POC can be and should look like</span>
+                      <span className="text-[#3b98df]">POC We can define what an initial POC can be and should look like</span>
                     </li>
                   </ul>
                 </div>
